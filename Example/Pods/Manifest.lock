@@ -1,0 +1,28 @@
+PODS:
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FNVoiceManagerPod (0.1.0):
+    - FMDB
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FNVoiceManagerPod (from `../`)
+
+EXTERNAL SOURCES:
+  FNVoiceManagerPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FNVoiceManagerPod: 56b761c2c72972b024f8afb2471820085ff4fab2
+
+PODFILE CHECKSUM: 6192085c3cdae9175e5be5243d815255bbd4d182
+
+COCOAPODS: 1.0.1

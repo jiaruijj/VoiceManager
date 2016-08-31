@@ -1,0 +1,6 @@
+framework module Pods_FNVoiceManagerPod_Example {
+  umbrella header "Pods-FNVoiceManagerPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

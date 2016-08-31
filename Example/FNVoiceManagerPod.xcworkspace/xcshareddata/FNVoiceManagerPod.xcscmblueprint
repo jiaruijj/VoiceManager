@@ -1,0 +1,26 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5dd1301e-c64b-41b1-99a8-f72833a5f314++1692" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "fn-ios\/FeiniuAPP_FNMerchant\/branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "fn-ios\/FeiniuAPP_FNMerchant\/tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "fn-ios\/FeiniuAPP_FNMerchant\/trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5dd1301e-c64b-41b1-99a8-f72833a5f314++1692" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C2BF9EE3-1A0A-4F4E-A3C5-8FECC9D0F216",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5dd1301e-c64b-41b1-99a8-f72833a5f314++1692" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FNVoiceManagerPod",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/FNVoiceManagerPod.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svnserver01.fn.com\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5dd1301e-c64b-41b1-99a8-f72833a5f314++1692"
+    }
+  ]
+}

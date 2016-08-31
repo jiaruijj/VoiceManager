@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'FNVoiceManagerPod_Example' do
+  pod 'FNVoiceManagerPod', :path => '../'
+#  pod 'HyphenateSDK', :git => 'https://github.com/easemob/hyphenate-cocoapods.git'
+
+  target 'FNVoiceManagerPod_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

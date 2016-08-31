@@ -1,0 +1,6 @@
+framework module FNVoiceManagerPod {
+  umbrella header "FNVoiceManagerPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

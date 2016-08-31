@@ -1,0 +1,33 @@
+{
+  "name": "FNVoiceManagerPod",
+  "version": "0.1.0",
+  "summary": "A short description of FNVoiceManagerPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "www.feiniu.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JR": "jiaruijj@163.com"
+  },
+  "source": {
+    "svn": "http://svnserver01.fn.com/ios/fn-ios/FeiniuAPP_FNMerchant/ShareCode/FNVoiceManagerPod"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FNVoiceManagerPod/Classes/**/*.{h,m,mm}",
+  "resources": [
+    "FNVoiceManagerPod/Classes/**/*.{a,arm64,armv7,armv7s,i386,x86_84,la,pc}"
+  ],
+  "dependencies": {
+    "FMDB": [
+
+    ]
+  },
+  "libraries": [
+    "opencore-amrnb",
+    "opencore-amrwb"
+  ]
+}
