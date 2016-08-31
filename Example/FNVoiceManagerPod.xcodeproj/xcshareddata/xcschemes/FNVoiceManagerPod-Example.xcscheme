@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "43C99645D707A3C810733706C49CEAC3"
+               BlueprintIdentifier = "68854EB0BD86A782E0D0C87B14402B91"
                BuildableName = "FNVoiceManagerPod.framework"
                BlueprintName = "FNVoiceManagerPod"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">

@@ -19,7 +19,7 @@
   },
   "source_files": "FNVoiceManagerPod/Classes/**/*.{h,m,mm}",
   "resources": [
-    "FNVoiceManagerPod/Classes/**/*.{a,arm64,armv7,armv7s,i386,x86_84,la,pc}"
+    "FNVoiceManagerPod/Classes/**/*.a"
   ],
   "dependencies": {
     "FMDB": [
@@ -27,7 +27,8 @@
     ]
   },
   "libraries": [
-    "opencore-amrnb",
-    "opencore-amrwb"
+    "opencore-amrnb1",
+    "opencore-amrwb",
+    "stdc++"
   ]
 }

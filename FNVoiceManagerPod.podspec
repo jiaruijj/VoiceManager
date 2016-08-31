@@ -32,13 +32,11 @@ s.ios.deployment_target = '8.0'
 
 s.source_files = 'FNVoiceManagerPod/Classes/**/*.{h,m,mm}'
 
-s.resources = ["FNVoiceManagerPod/Classes/**/*.{a,arm64,armv7,armv7s,i386,x86_84,la,pc}"]
+s.resources = ["FNVoiceManagerPod/Classes/**/*.a"]
 
 s.dependency 'FMDB'
 
-#s.frameworks = 'AVFoundation'
-
-s.libraries = 'opencore-amrnb','opencore-amrwb'
+s.libraries = ['opencore-amrnb.a','opencore-amrwb','stdc++']
 
 # s.resource_bundles = {
 #   'FNVoiceManagerPod' => ['FNVoiceManagerPod/Assets/*.png']

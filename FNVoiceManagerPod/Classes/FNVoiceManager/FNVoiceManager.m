@@ -98,7 +98,7 @@ static NSString *kFileFolrderName =@"Amr";
 /*开始计算录音时长*/
 - (void)startSecondCount {
     self.secondCount ++;
-    DLog(@"%ld",_secondCount);
+    DLog(@"%ld",(long)_secondCount);
 }
 
 /*暂停定时器并清除录音时长*/
@@ -311,7 +311,7 @@ static NSString *kFileFolrderName =@"Amr";
 // 获取音频文件信息
 - (NSString *)getVoicefileInfoByPath:(NSString *)filePath convertTime:(NSTimeInterval)convertTime {
     NSInteger size = [self getFileSize:filePath];
-    NSString *info = [NSString stringWithFormat:@"文件名:%@\n文件大小:%ldkb\n",filePath.lastPathComponent,size];
+    NSString *info = [NSString stringWithFormat:@"文件名:%@\n文件大小:%ldkb\n",filePath.lastPathComponent,(long)size];
     
     NSTimeInterval duration = [self getVoiceDuration:filePath];
     info = [info stringByAppendingFormat:@"文件时长:%f\n",duration];
