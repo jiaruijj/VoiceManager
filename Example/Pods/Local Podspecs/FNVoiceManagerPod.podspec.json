@@ -12,7 +12,7 @@
     "JR": "jiaruijj@163.com"
   },
   "source": {
-    "svn": "http://svnserver01.fn.com/ios/fn-ios/FeiniuAPP_FNMerchant/ShareCode/FNVoiceManagerPod"
+    "git": "https://github.com/jiaruijj/VoiceManager.git"
   },
   "platforms": {
     "ios": "8.0"
