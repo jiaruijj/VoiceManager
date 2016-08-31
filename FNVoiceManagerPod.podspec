@@ -36,7 +36,7 @@ s.resources = ["FNVoiceManagerPod/Classes/**/*.a"]
 
 s.dependency 'FMDB'
 
-s.libraries = ['opencore-amrnb.a','opencore-amrwb','stdc++']
+s.libraries = ['opencore-amrnb','opencore-amrwb','stdc++']
 
 # s.resource_bundles = {
 #   'FNVoiceManagerPod' => ['FNVoiceManagerPod/Assets/*.png']

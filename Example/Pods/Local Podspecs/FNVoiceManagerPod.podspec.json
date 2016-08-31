@@ -27,7 +27,7 @@
     ]
   },
   "libraries": [
-    "opencore-amrnb1",
+    "opencore-amrnb",
     "opencore-amrwb",
     "stdc++"
   ]
