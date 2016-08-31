@@ -25,7 +25,7 @@ s.homepage         = 'www.feiniu.com'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'JR' => 'jiaruijj@163.com' }
-s.source           = {:git => "'https://github.com/jiaruijj/VoiceManager.git'"}
+s.source           = {:git => 'https://github.com/jiaruijj/VoiceManager.git'}
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '8.0'
