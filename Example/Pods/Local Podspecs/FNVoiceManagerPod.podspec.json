@@ -18,16 +18,10 @@
     "ios": "8.0"
   },
   "source_files": "FNVoiceManagerPod/Classes/**/*.{h,m,mm}",
-  "resources": [
-    "FNVoiceManagerPod/Classes/**/*.a"
-  ],
   "dependencies": {
     "FMDB": [
 
     ]
   },
-  "vendored_libraries": [
-    "libopencore-amrnb.a",
-    "libopencore-amrwb.a"
-  ]
+  "vendored_libraries": "*.a"
 }

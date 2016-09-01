@@ -7,69 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D619A711F71058C9238B17E9AF48AFC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CDA1D122E532FCCA76E5632608062 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E83690D4927F46D0706F36B37C707 /* UIImage+Compare.m */; };
-		130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68CE8022EFB04C8604D4C61E65E3CCF2 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		183A0D8AF38E0EE20E47F1FEF9B37327 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = C8097AD91CD62ACB8B593365F9B8A65E /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22673B5BAC865FAE48EFEAD264BC027F /* FNVoiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FF8A69F6294541537BA710879A652C /* FNVoiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5A4C871E781D48AC781D991684D95 /* UIApplication+StrictKeyWindow.m */; };
+		0682202AEE5CC8F12D915BC8C636144F /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = C147F55C2D66C836CB000FC3769116C2 /* amrFileCodec.mm */; };
+		0D619A711F71058C9238B17E9AF48AFC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCF926FEABB9B9A62BDB5C0CD90151 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		10922AFDD1801B580566BAD768970EC6 /* FNUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E66F1CDD47214D43B95D19E678D80D3 /* FNUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 61786E665C70BE30B44E88599C198DD0 /* UIImage+Compare.m */; };
+		130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69110EE90FF85D8971924FD9BF398577 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183A0D8AF38E0EE20E47F1FEF9B37327 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EFD1C91259565B25032EEC751EF330 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20B14867D27186624050FF714CCFBFBE /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = ECAE4E71F811183B02A66727757018A0 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28EC6790D2BC744ECE3118DC9D7BA5C4 /* UILabel+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35E0A8D2E07D992BD2299F1C74EDCC /* UILabel+Delay.m */; };
+		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4225B513ECDE143DCDD68B1EE496F658 /* UIApplication+StrictKeyWindow.m */; };
 		3060A5DF4A1D0115C98F1277D1ABFF6F /* Pods-FNVoiceManagerPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4599C5CAD135E6773E4A51DC70E3D581 /* Pods-FNVoiceManagerPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7590B0A503289C53CF581078F8771E /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3ECC23FFAE400A6B2658AAF2990D83BE /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 51EFBA6180946A72C7FAB8DEFC642840 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F61BE79D4B46C119C136EDE960CE78C /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E84072137FD1A767C8BA619A4CCCFB9 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E61C803F582EAF9B049DB3BB032B6C40 /* FBSnapshotTestCase-dummy.m */; };
-		57AD99C06C99B90AF06F492BB415B1E2 /* FNSqlHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA16C6960567B4291BC587E0113F2495 /* FNSqlHelper.m */; };
-		5ADA086DC23F8902B014F36EE81315A4 /* FNVoiceManagerPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E80AB8E7884A214A39E8552220D6F7 /* FNVoiceManagerPod-dummy.m */; };
-		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B115380E89BD5DC0F468B11CB72AE73 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B62872594691BB531FBDE398FCDD74 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3732434A9A6A34FB25F4ABD5E713043C /* FNVoiceManagerPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E749E3B63BB796DD87501A75DC32D2B3 /* FNVoiceManagerPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3892D8B6C427A45C8C4F6055775055C9 /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = BD22B550F79A78BC91F33EDA89A212CE /* VoiceConverter.mm */; };
+		3ECC23FFAE400A6B2658AAF2990D83BE /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3D1D81D33A39AFFD0CE63A31609672 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F61BE79D4B46C119C136EDE960CE78C /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE148C095025869A0999202D458E4D5 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12C93C76D127C1A7F48E1D25A102ED /* FBSnapshotTestCase-dummy.m */; };
+		4F491FDC4D61A7E7C5F7999E87580ABB /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34BFDA8264357B0F41DEAA4AE507C0E /* FMDB.framework */; };
+		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 0693FC35DAFD28895C69BD112CDE4580 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		66FD571DD770992D1781FB056A82C09B /* Pods-FNVoiceManagerPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B129AD49406C3F6C423D5B94925E38C1 /* Pods-FNVoiceManagerPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67698214BD474C095CFDCA4B287297D9 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 677B7D8D472F509D9F080865CF9CE63C /* amrFileCodec.mm */; };
-		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FBC11116E7513F8351BAAFD4097B8C /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD7BCD4805DEBC38A37881034C38549 /* FBSnapshotTestCase.m */; };
-		6954DAFAB9818C8539E7D7CD1A67A85C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA665504085568AB2AC89AD106405 /* Foundation.framework */; };
-		6C63E2BEBE2BC08BD46F6A91D0A08143 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F6953F1D155D684A68E2B5F54EF28AB /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F9B13789ACFF21EE1D83814D08873D /* FBSnapshotTestCasePlatform.m */; };
-		6F504CF11D6435A6F29614F726F8CE5A /* FNUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8462AF8017D1AEDB2E9BC3D387A091 /* FNUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		713D7BF2B443BC3F492BC94907AAAFA9 /* FNVoiceManagerPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3892A4E5D3849D353BA0DF38567158F /* FNVoiceManagerPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB399C48C0546927EBC96D79383B238 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1515814505731A51703FF13674255F /* FBSnapshotTestCase.m */; };
+		6C63E2BEBE2BC08BD46F6A91D0A08143 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7AFB8C6A738476B989ADD6534A0E71 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = F30C4A2BA2907B996D1BFFC1BF1B6D63 /* FBSnapshotTestCasePlatform.m */; };
+		6ED79724128505E04C3FF6189330D391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA665504085568AB2AC89AD106405 /* Foundation.framework */; };
 		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E004BC1D2D5C36EBB99312107C15BA11 /* XCTest.framework */; };
-		74695802583BDB0C0818AC1B97F63815 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CE47FF1E961E20D08EDF511CD25AEB /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C818AE74E830311E61FF1A7E42D0713 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6CD0F003973F63CDCA05B3D144C41B /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8153428C1532757F84042247268D254E /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8BD0BD949EE805C5FD88628C7FFFD4 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8268EDDB23DA16067CD8420E96D424FF /* UILabel+Delay.h in Headers */ = {isa = PBXBuildFile; fileRef = 114186996A6164A46E90B10021BDE253 /* UILabel+Delay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8385ACAB5FC6900E781CBE4B7AE790F0 /* FNVoiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A8D42CE5FDD2A3724833244DB3D856 /* FNVoiceManager.m */; };
-		853BECBB903C41ECF92798E843450492 /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 76C07C051DF8EFA9036FC83746C33AB7 /* VoiceConverter.mm */; };
-		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C2D94D5350EC31D1ACC9F8912E1C6 /* SwiftSupport.swift */; };
-		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6AEF169272C1A84E406CA57279790D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74695802583BDB0C0818AC1B97F63815 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D506686D3D2AED730278DE0FAEAF15E /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C818AE74E830311E61FF1A7E42D0713 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = AED09754B7E37CFEFEFE64BD6D82FB0F /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7FEF9BB5E2D0736EEBD409EED8DE1823 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = B0038A2A34A26CDF3A0A78540B6A6524 /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840E6F5D2868FBCB9D87F7F543EC8C59 /* FNSqlHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C692D4773C4E9DFF50758C475D6EA /* FNSqlHelper.m */; };
+		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2A021858D093C42FD4AC67E9C69BC /* SwiftSupport.swift */; };
+		88F90CA6400709C256DC05C7D293A2BF /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 6108446681F0668C452413EAAA99A9D2 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A5AD7EA712D4D63DAFB220A57F7B44 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7063D58ACBA964EC6D082075B663B4C9 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B66E9AD81EFA5D6EAD0331550CD327 /* FNSqlHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EF445F480D669227D7B29260198D5FA9 /* FNSqlHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2F7EEFD36A51C5DB4911FB8B768D86 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C20E9B8E2ED1F77D315916E385E8E43 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C292C7811CBC6290BB5C453B618B07A /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F8F253013227F42C847CA1B4777DA2F /* UILabel+Delay.h in Headers */ = {isa = PBXBuildFile; fileRef = AC0BE5BBF0A6F6853C5781DF8075A274 /* UILabel+Delay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FD0B67D285B107A1CE37F2F4301CF24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA665504085568AB2AC89AD106405 /* Foundation.framework */; };
-		9F294ABBDA801C2346B085AD1F14B8CC /* FNSqlHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3376BED2892C1531FE678841B9D77A /* FNSqlHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 729BBEC31CB1DE6DAC811044F2596A7D /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A46B0D9C329B974A44B751D1082CB200 /* FNUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470FAA52C1A35CD653AD3319C4FBD31 /* FNUser.m */; };
+		9626E8C8A1D44CA8294B6A6D35697429 /* VoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA7DB18225E08D342564E6CBAD653B8 /* VoiceConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE53CC1A82C88CA231501721E103DE1 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A89C4F8ECEE37BB0325D895BD240BC2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA665504085568AB2AC89AD106405 /* Foundation.framework */; };
 		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA665504085568AB2AC89AD106405 /* Foundation.framework */; };
 		AA94824B38F6FD8FDC6EA5199ADFD696 /* Pods-FNVoiceManagerPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D15390A7578DBA36D5BC08693D7F53 /* Pods-FNVoiceManagerPod_Tests-dummy.m */; };
-		AD01D434D8D120A3767270766AD30797 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A430123191CCE7C1F4B72FC0A7CDDD4B /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B20FA626114940020CC460C565A6A011 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = D52BD5F15C3205EB72A9CF431B19BA89 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A02257B5C27677FA2D0B220A76054A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7B02CEB440370B2AFB4205BA83DF890 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8C1B0C828D8D42021481563E0C98AE /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA88E88A631D6BD023521B7206CE6C25 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8255E35FBCCBEF5EEDA46B6585EF0C87 /* FMDB-dummy.m */; };
-		BB19082D4A47EC31ADD0F131AFEA0530 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = B12D26378CB4570326A81385F6BBD006 /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD01D434D8D120A3767270766AD30797 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8802D030E92B4791A24033E8DC35B9E0 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D5CB60037F31E7189D335A7BDDD0B6 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA88E88A631D6BD023521B7206CE6C25 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A658B3346DBD5486D8B4CB17354BE01 /* FMDB-dummy.m */; };
 		C08CA1FA2B16D751B1A4996AB9608585 /* Pods-FNVoiceManagerPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9F512C9157559FBFABE8821F94F8F0 /* Pods-FNVoiceManagerPod_Example-dummy.m */; };
-		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 979E4BC254EC7F871D05CD70B33A6EDC /* UIImage+Diff.m */; };
-		C4A92565F3902E3CD06731896033DC95 /* UILabel+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BC24279A08766299BA68BD2A5849F /* UILabel+Delay.m */; };
-		C508A55A9F6BA4B590BDF6218A642B55 /* libopencore-amrnb.a in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DFEB94BE9CCBD62BD09B41BD9D543 /* libopencore-amrnb.a */; };
+		C08DDD74898D595076C0725671AD83B9 /* FNVoiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 381BE89A52575B9C7C53B713449380E7 /* FNVoiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0EBE4785D10B40856594871B39F63 /* UIImage+Diff.m */; };
 		C7471004D3E3DE0B39E27AD4AEAC6231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA665504085568AB2AC89AD106405 /* Foundation.framework */; };
-		C8FC0929A42C36174794FE1ADFD620E3 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3A066F412C43A91B470653D0F5BFA1 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CD2148808BEEFF41AE631E22EF939C8E /* VoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F2768162F3198A98959D209889C3B4 /* VoiceConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0AD9A83CF6C6D26B9E0A537E1335BB2 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34BFDA8264357B0F41DEAA4AE507C0E /* FMDB.framework */; };
-		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 51225868B34AF8B9E67BE4097B62E2A2 /* UIImage+Snapshot.m */; };
-		DD2B82A8556870287DC0E2118A81F18A /* libopencore-amrwb.a in Resources */ = {isa = PBXBuildFile; fileRef = DDFDF03F33C9016C25E437A3DF6B95D5 /* libopencore-amrwb.a */; };
-		E330886E0E7C450E9669C4BD025D9ABD /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5EFA767528E55B36008BBAC99B9BB6 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FD270F76A59F393CF60DCDA87C093B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F0895B2A83F948153E1E5EA38A230B66 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 407731A407A35F431AD2EBE62A834F9B /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8FC0929A42C36174794FE1ADFD620E3 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A545C740D9FEA6E8032B166E423891 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D2EFFF205E60DF08EBAF20AEAE35EBE8 /* FNVoiceManagerPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D3361DF39CD26711912909D1B1DD1 /* FNVoiceManagerPod-dummy.m */; };
+		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BB2A106FBDAD2BA9834378FF47C87 /* UIImage+Snapshot.m */; };
+		D98DF1EC64A349513509278403361836 /* FNUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C3293E87BFF3A8FD7E2735733DA94FCC /* FNUser.m */; };
+		DC4C102A0470B47124DAEF6D7C6A7D83 /* FNVoiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A189ABADC34226E56BFABD9EBA95D541 /* FNVoiceManager.m */; };
+		E330886E0E7C450E9669C4BD025D9ABD /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A024DA4A36048D098C570390EDCA481 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA9F268CF857491897635F1E9D6F5EE /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F0895B2A83F948153E1E5EA38A230B66 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B72FA7FFEFF8624F250DE58F5A08B9 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2D5C864335989B36E4619FF90F3E62 /* UIKit.framework */; };
 		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13ED50B343FA8F75D54143B0CBDDCB9 /* QuartzCore.framework */; };
-		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD828A0897DD0B1D30FD5E51D509F2D6 /* FBSnapshotTestController.m */; };
-		F5A0569CB70F6F37A16E32EE210D0C66 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 288574DF91691F113B9E7076E2E0F739 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FA5F9F44AE683303ACB1244FD3E64CAC /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB1657945E34DF1621642C2756D5C9C /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39687CCFBCBE9205D96801E5386530E /* FBSnapshotTestController.m */; };
+		F5A0569CB70F6F37A16E32EE210D0C66 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 922EA8A4F868B9FA06AAE106F4E2EA72 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,10 +82,10 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 43C99645D707A3C810733706C49CEAC3;
+			remoteGlobalIDString = 68854EB0BD86A782E0D0C87B14402B91;
 			remoteInfo = FNVoiceManagerPod;
 		};
-		0F79122D0345116D6022F377FB24388D /* PBXContainerItemProxy */ = {
+		CB3544A7E80D637F02291F8B32C08DF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -104,99 +102,97 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02FCD7E7D8246487941BF66F05420B5E /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		0693FC35DAFD28895C69BD112CDE4580 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		0B16FBC5E4E49AE80720CB67B8F2B7B7 /* Pods-FNVoiceManagerPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FNVoiceManagerPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		0D4B0134C1F275FBEF9EDCE5F022D266 /* Pods-FNVoiceManagerPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FNVoiceManagerPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		105CDA1D122E532FCCA76E5632608062 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
-		114186996A6164A46E90B10021BDE253 /* UILabel+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Delay.h"; path = "FNVoiceManagerPod/Classes/FNVoiceManager/UILabel+Delay.h"; sourceTree = "<group>"; };
+		13EA358A6E71F15B6ED68CA19987A84B /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		15A545C740D9FEA6E8032B166E423891 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 		16A947229B1D532155BBBAF51014450C /* Pods_FNVoiceManagerPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FNVoiceManagerPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		177E504EA84D7726776586382D78BA53 /* FNVoiceManagerPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FNVoiceManagerPod-prefix.pch"; sourceTree = "<group>"; };
+		1913D54200359015211E7246957DE4F1 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
 		1A09DDC74B192527383100790F3F286B /* Pods-FNVoiceManagerPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FNVoiceManagerPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1CD7BCD4805DEBC38A37881034C38549 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		1F5EFA767528E55B36008BBAC99B9BB6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		1B5BB2A106FBDAD2BA9834378FF47C87 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		1CE2839F0847654E8CBFB360A90B8885 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		1D506686D3D2AED730278DE0FAEAF15E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		1E66F1CDD47214D43B95D19E678D80D3 /* FNUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FNUser.h; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNUser.h; sourceTree = "<group>"; };
 		21FE510329EAC76A2A16E39563B9CD9E /* Pods-FNVoiceManagerPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FNVoiceManagerPod_Example.modulemap"; sourceTree = "<group>"; };
-		288574DF91691F113B9E7076E2E0F739 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
-		2A7590B0A503289C53CF581078F8771E /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		2F5BC24279A08766299BA68BD2A5849F /* UILabel+Delay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Delay.m"; path = "FNVoiceManagerPod/Classes/FNVoiceManager/UILabel+Delay.m"; sourceTree = "<group>"; };
-		2F6953F1D155D684A68E2B5F54EF28AB /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		2C1515814505731A51703FF13674255F /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		381BE89A52575B9C7C53B713449380E7 /* FNVoiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FNVoiceManager.h; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNVoiceManager.h; sourceTree = "<group>"; };
 		3907A596E6677D4088522278E33B550A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AF31C44388A1F2512C3EB96126C5AB5 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
-		3B3C2D94D5350EC31D1ACC9F8912E1C6 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		407731A407A35F431AD2EBE62A834F9B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		41E80AB8E7884A214A39E8552220D6F7 /* FNVoiceManagerPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FNVoiceManagerPod-dummy.m"; sourceTree = "<group>"; };
-		45282F28970C0EF029C47FD190AADA0C /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		4225B513ECDE143DCDD68B1EE496F658 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		4599C5CAD135E6773E4A51DC70E3D581 /* Pods-FNVoiceManagerPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FNVoiceManagerPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4B115380E89BD5DC0F468B11CB72AE73 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		4B9DFEB94BE9CCBD62BD09B41BD9D543 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
-		4EB5A4C871E781D48AC781D991684D95 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		51225868B34AF8B9E67BE4097B62E2A2 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		51EFBA6180946A72C7FAB8DEFC642840 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		45EFD1C91259565B25032EEC751EF330 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		4C292C7811CBC6290BB5C453B618B07A /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dec_if.h; path = "FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/opencore-amrwb/dec_if.h"; sourceTree = "<group>"; };
+		4F7AFB8C6A738476B989ADD6534A0E71 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		51550D4EDF46B388A2F69D099447F4F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5231F13F287B5ABBBA52E4BA139DE108 /* Pods-FNVoiceManagerPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FNVoiceManagerPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5470FAA52C1A35CD653AD3319C4FBD31 /* FNUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNUser.m; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNUser.m; sourceTree = "<group>"; };
-		55F9B13789ACFF21EE1D83814D08873D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		56A02257B5C27677FA2D0B220A76054A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		52C2A021858D093C42FD4AC67E9C69BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		52F20F79CC8271E474B73F3AC555BF24 /* FNVoiceManagerPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FNVoiceManagerPod.xcconfig; sourceTree = "<group>"; };
 		5D2D5C864335989B36E4619FF90F3E62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		64CE47FF1E961E20D08EDF511CD25AEB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		677B7D8D472F509D9F080865CF9CE63C /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = amrFileCodec.mm; path = FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/amrwapper/amrFileCodec.mm; sourceTree = "<group>"; };
-		68CE8022EFB04C8604D4C61E65E3CCF2 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		5E9D3361DF39CD26711912909D1B1DD1 /* FNVoiceManagerPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FNVoiceManagerPod-dummy.m"; sourceTree = "<group>"; };
+		5FA7DB18225E08D342564E6CBAD653B8 /* VoiceConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VoiceConverter.h; path = FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/VoiceConverter.h; sourceTree = "<group>"; };
+		5FE148C095025869A0999202D458E4D5 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		6108446681F0668C452413EAAA99A9D2 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = if_rom.h; path = "FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/opencore-amrwb/if_rom.h"; sourceTree = "<group>"; };
+		61786E665C70BE30B44E88599C198DD0 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		68B72FA7FFEFF8624F250DE58F5A08B9 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		69110EE90FF85D8971924FD9BF398577 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		6A024DA4A36048D098C570390EDCA481 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		6A658B3346DBD5486D8B4CB17354BE01 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
 		6AD5C88E287C3DEC9845B82D2418CEEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B86498CC5A91181D57B416574845411 /* Pods-FNVoiceManagerPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FNVoiceManagerPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6B942B4CFE3283E540881C22D9EBCC26 /* Pods-FNVoiceManagerPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FNVoiceManagerPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6B9A75B433110344E3B97E43A733396D /* FNVoiceManagerPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FNVoiceManagerPod.xcconfig; sourceTree = "<group>"; };
+		6EA9F268CF857491897635F1E9D6F5EE /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6F07012645DF3A716259DCCFF63377B8 /* Pods-FNVoiceManagerPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FNVoiceManagerPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		729BBEC31CB1DE6DAC811044F2596A7D /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		76C07C051DF8EFA9036FC83746C33AB7 /* VoiceConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = VoiceConverter.mm; path = FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/VoiceConverter.mm; sourceTree = "<group>"; };
-		7E84072137FD1A767C8BA619A4CCCFB9 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
-		7E8BD0BD949EE805C5FD88628C7FFFD4 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = if_rom.h; path = "FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/opencore-amrwb/if_rom.h"; sourceTree = "<group>"; };
-		8255E35FBCCBEF5EEDA46B6585EF0C87 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
-		88F2768162F3198A98959D209889C3B4 /* VoiceConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VoiceConverter.h; path = FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/VoiceConverter.h; sourceTree = "<group>"; };
+		6F35E0A8D2E07D992BD2299F1C74EDCC /* UILabel+Delay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Delay.m"; path = "FNVoiceManagerPod/Classes/FNVoiceManager/UILabel+Delay.m"; sourceTree = "<group>"; };
+		6F3D1D81D33A39AFFD0CE63A31609672 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		7063D58ACBA964EC6D082075B663B4C9 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amrFileCodec.h; path = FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/amrwapper/amrFileCodec.h; sourceTree = "<group>"; };
+		7500757395250CFED7165C029CBC497F /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FMDB.modulemap; sourceTree = "<group>"; };
+		86D5CB60037F31E7189D335A7BDDD0B6 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		86F0EBE4785D10B40856594871B39F63 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		8802D030E92B4791A24033E8DC35B9E0 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		8910A83F2A0E3F40EB57380E6C56D91B /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		8BDFF56546C57F8B996A96E24537F4A3 /* Pods-FNVoiceManagerPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FNVoiceManagerPod_Example-resources.sh"; sourceTree = "<group>"; };
-		8C6AEF169272C1A84E406CA57279790D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		922EA8A4F868B9FA06AAE106F4E2EA72 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94FD270F76A59F393CF60DCDA87C093B /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		979E4BC254EC7F871D05CD70B33A6EDC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		9977BCC37766905705F50C9796B4F96D /* FNVoiceManagerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FNVoiceManagerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F8462AF8017D1AEDB2E9BC3D387A091 /* FNUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FNUser.h; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNUser.h; sourceTree = "<group>"; };
+		A189ABADC34226E56BFABD9EBA95D541 /* FNVoiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNVoiceManager.m; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNVoiceManager.m; sourceTree = "<group>"; };
 		A1D15390A7578DBA36D5BC08693D7F53 /* Pods-FNVoiceManagerPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FNVoiceManagerPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		A3666395585278AEAF9512335F214A1F /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		A3892A4E5D3849D353BA0DF38567158F /* FNVoiceManagerPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FNVoiceManagerPod-umbrella.h"; sourceTree = "<group>"; };
-		A3A8D42CE5FDD2A3724833244DB3D856 /* FNVoiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNVoiceManager.m; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNVoiceManager.m; sourceTree = "<group>"; };
-		A430123191CCE7C1F4B72FC0A7CDDD4B /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
-		A6FF8A69F6294541537BA710879A652C /* FNVoiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FNVoiceManager.h; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNVoiceManager.h; sourceTree = "<group>"; };
-		AE3A066F412C43A91B470653D0F5BFA1 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		A39687CCFBCBE9205D96801E5386530E /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		AC0BE5BBF0A6F6853C5781DF8075A274 /* UILabel+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Delay.h"; path = "FNVoiceManagerPod/Classes/FNVoiceManager/UILabel+Delay.h"; sourceTree = "<group>"; };
+		AD12C93C76D127C1A7F48E1D25A102ED /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		AED09754B7E37CFEFEFE64BD6D82FB0F /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		B0038A2A34A26CDF3A0A78540B6A6524 /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_dec.h; path = "FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/opencore-amrnb/interf_dec.h"; sourceTree = "<group>"; };
 		B129AD49406C3F6C423D5B94925E38C1 /* Pods-FNVoiceManagerPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FNVoiceManagerPod_Example-umbrella.h"; sourceTree = "<group>"; };
-		B12D26378CB4570326A81385F6BBD006 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dec_if.h; path = "FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/opencore-amrwb/dec_if.h"; sourceTree = "<group>"; };
 		B34BFDA8264357B0F41DEAA4AE507C0E /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B75465EA9538661943335F9B08EE3801 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B88D33314FF5F6E5D5A0C44C114DB313 /* FNVoiceManagerPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FNVoiceManagerPod.modulemap; sourceTree = "<group>"; };
-		BD828A0897DD0B1D30FD5E51D509F2D6 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		BE3376BED2892C1531FE678841B9D77A /* FNSqlHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FNSqlHelper.h; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNSqlHelper.h; sourceTree = "<group>"; };
-		C8097AD91CD62ACB8B593365F9B8A65E /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
-		C8B60456F1CBC4D583D17D8FA8EA75C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD22B550F79A78BC91F33EDA89A212CE /* VoiceConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = VoiceConverter.mm; path = FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/VoiceConverter.mm; sourceTree = "<group>"; };
+		BD7C692D4773C4E9DFF50758C475D6EA /* FNSqlHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNSqlHelper.m; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNSqlHelper.m; sourceTree = "<group>"; };
+		C147F55C2D66C836CB000FC3769116C2 /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = amrFileCodec.mm; path = FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/amrwapper/amrFileCodec.mm; sourceTree = "<group>"; };
+		C3293E87BFF3A8FD7E2735733DA94FCC /* FNUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNUser.m; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNUser.m; sourceTree = "<group>"; };
+		C50EDD630DAB97C7DEFB6B2615D9CB41 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		C6AA32989C79AF2DD541B08BAD36B165 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9076F09E83A7B02F15C622E5DFA3142 /* Pods-FNVoiceManagerPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FNVoiceManagerPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAFEF991EF24976A12FE619C94876776 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CBAECA14BEBA1D54060134EB436CF13F /* FNVoiceManagerPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FNVoiceManagerPod-prefix.pch"; sourceTree = "<group>"; };
+		CE2F7EEFD36A51C5DB4911FB8B768D86 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		CE8DA665504085568AB2AC89AD106405 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF171C9230302E4EAA5C48646385DA32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D112168DDA9D77EA2653CE454A6B96C6 /* FNVoiceManagerPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FNVoiceManagerPod.modulemap; sourceTree = "<group>"; };
 		D13ED50B343FA8F75D54143B0CBDDCB9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D148856D6CB9AD4E0DEC054F9732ABF7 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D39E83690D4927F46D0706F36B37C707 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		D3DB6398E2C70B32AEEEA19089154680 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FMDB.modulemap; sourceTree = "<group>"; };
-		D52BD5F15C3205EB72A9CF431B19BA89 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amrFileCodec.h; path = FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/amrwapper/amrFileCodec.h; sourceTree = "<group>"; };
 		D959CF85D0F122A75AA38202F4EB0FD6 /* Pods-FNVoiceManagerPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FNVoiceManagerPod_Tests.modulemap"; sourceTree = "<group>"; };
-		DB6CD0F003973F63CDCA05B3D144C41B /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
-		DDFDF03F33C9016C25E437A3DF6B95D5 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		DFE53CC1A82C88CA231501721E103DE1 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		E004BC1D2D5C36EBB99312107C15BA11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E1FBC11116E7513F8351BAAFD4097B8C /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		E538FD8FC679B0AD2D8822B322E985D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E61C803F582EAF9B049DB3BB032B6C40 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		E5B62872594691BB531FBDE398FCDD74 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		E749E3B63BB796DD87501A75DC32D2B3 /* FNVoiceManagerPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FNVoiceManagerPod-umbrella.h"; sourceTree = "<group>"; };
 		E8CCDBADC3552191B3159684ADB2C34C /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E953CC49E90AE7FDF58715D174E6FA03 /* Pods-FNVoiceManagerPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FNVoiceManagerPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EA9F512C9157559FBFABE8821F94F8F0 /* Pods-FNVoiceManagerPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FNVoiceManagerPod_Example-dummy.m"; sourceTree = "<group>"; };
+		ECAE4E71F811183B02A66727757018A0 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_enc.h; path = "FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/opencore-amrnb/interf_enc.h"; sourceTree = "<group>"; };
+		EF445F480D669227D7B29260198D5FA9 /* FNSqlHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FNSqlHelper.h; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNSqlHelper.h; sourceTree = "<group>"; };
 		F05AF2C0D68324EBF4606A575341331A /* Pods_FNVoiceManagerPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FNVoiceManagerPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13CE2B933C063CF9163772ACA48BE0E /* Pods-FNVoiceManagerPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FNVoiceManagerPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F30C4A2BA2907B996D1BFFC1BF1B6D63 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		F6DCF926FEABB9B9A62BDB5C0CD90151 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		F9FD6389AE4BFD6E7CE3EDDA2C6A9EEF /* Pods-FNVoiceManagerPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FNVoiceManagerPod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FA16C6960567B4291BC587E0113F2495 /* FNSqlHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNSqlHelper.m; path = FNVoiceManagerPod/Classes/FNVoiceManager/FNSqlHelper.m; sourceTree = "<group>"; };
-		FAB1657945E34DF1621642C2756D5C9C /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_dec.h; path = "FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/opencore-amrnb/interf_dec.h"; sourceTree = "<group>"; };
-		FF8C1B0C828D8D42021481563E0C98AE /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_enc.h; path = "FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/opencore-amrnb/interf_enc.h"; sourceTree = "<group>"; };
+		FDB399C48C0546927EBC96D79383B238 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,12 +212,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E4D516596C1291117A1F1EB93E4D09D /* Frameworks */ = {
+		4CF471E4CEE33F0F35333F5DCC22AE74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0AD9A83CF6C6D26B9E0A537E1335BB2 /* FMDB.framework in Frameworks */,
-				6954DAFAB9818C8539E7D7CD1A67A85C /* Foundation.framework in Frameworks */,
+				4F491FDC4D61A7E7C5F7999E87580ABB /* FMDB.framework in Frameworks */,
+				6ED79724128505E04C3FF6189330D391 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,60 +254,67 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		181287B5EEE3C58F1D9AE2C63BA87B73 /* Pods */ = {
+		086CBC4DEFB1741F95B50FD9A8FD36F0 /* standard */ = {
 			isa = PBXGroup;
 			children = (
-				8A9DEE2EBE770A2CD3714212AED5D3B6 /* FBSnapshotTestCase */,
-				8F77AE287C3AF920301D270A003B0497 /* FMDB */,
-				3A95A2DA785C0D9ABC70F9BF78C83FE7 /* FNVoiceManagerPod */,
+				5FE148C095025869A0999202D458E4D5 /* FMDatabase.h */,
+				922EA8A4F868B9FA06AAE106F4E2EA72 /* FMDatabase.m */,
+				1D506686D3D2AED730278DE0FAEAF15E /* FMDatabaseAdditions.h */,
+				68B72FA7FFEFF8624F250DE58F5A08B9 /* FMDatabaseAdditions.m */,
+				4F7AFB8C6A738476B989ADD6534A0E71 /* FMDatabasePool.h */,
+				15A545C740D9FEA6E8032B166E423891 /* FMDatabasePool.m */,
+				6A024DA4A36048D098C570390EDCA481 /* FMDatabaseQueue.h */,
+				F6DCF926FEABB9B9A62BDB5C0CD90151 /* FMDatabaseQueue.m */,
+				6F3D1D81D33A39AFFD0CE63A31609672 /* FMDB.h */,
+				45EFD1C91259565B25032EEC751EF330 /* FMResultSet.h */,
+				AED09754B7E37CFEFEFE64BD6D82FB0F /* FMResultSet.m */,
 			);
-			name = Pods;
+			name = standard;
 			sourceTree = "<group>";
 		};
-		3A95A2DA785C0D9ABC70F9BF78C83FE7 /* FNVoiceManagerPod */ = {
+		100E6FD275314AF3BB8099C6A874B9DB /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				D52BD5F15C3205EB72A9CF431B19BA89 /* amrFileCodec.h */,
-				677B7D8D472F509D9F080865CF9CE63C /* amrFileCodec.mm */,
-				B12D26378CB4570326A81385F6BBD006 /* dec_if.h */,
-				BE3376BED2892C1531FE678841B9D77A /* FNSqlHelper.h */,
-				FA16C6960567B4291BC587E0113F2495 /* FNSqlHelper.m */,
-				9F8462AF8017D1AEDB2E9BC3D387A091 /* FNUser.h */,
-				5470FAA52C1A35CD653AD3319C4FBD31 /* FNUser.m */,
-				A6FF8A69F6294541537BA710879A652C /* FNVoiceManager.h */,
-				A3A8D42CE5FDD2A3724833244DB3D856 /* FNVoiceManager.m */,
-				7E8BD0BD949EE805C5FD88628C7FFFD4 /* if_rom.h */,
-				FAB1657945E34DF1621642C2756D5C9C /* interf_dec.h */,
-				FF8C1B0C828D8D42021481563E0C98AE /* interf_enc.h */,
-				114186996A6164A46E90B10021BDE253 /* UILabel+Delay.h */,
-				2F5BC24279A08766299BA68BD2A5849F /* UILabel+Delay.m */,
-				88F2768162F3198A98959D209889C3B4 /* VoiceConverter.h */,
-				76C07C051DF8EFA9036FC83746C33AB7 /* VoiceConverter.mm */,
-				B2721E12AA8BC5EE090BF2C3C0B90F2E /* Resources */,
-				74487A38BFECF46364D17B84953772CE /* Support Files */,
+				52C2A021858D093C42FD4AC67E9C69BC /* SwiftSupport.swift */,
 			);
-			path = FNVoiceManagerPod;
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		542E56E03035FE8CB078179368B35C29 /* Core */ = {
+		2073719CD60B316E7698AB1D00067B82 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
-				8C6AEF169272C1A84E406CA57279790D /* FBSnapshotTestCase.h */,
-				1CD7BCD4805DEBC38A37881034C38549 /* FBSnapshotTestCase.m */,
-				729BBEC31CB1DE6DAC811044F2596A7D /* FBSnapshotTestCasePlatform.h */,
-				55F9B13789ACFF21EE1D83814D08873D /* FBSnapshotTestCasePlatform.m */,
-				68CE8022EFB04C8604D4C61E65E3CCF2 /* FBSnapshotTestController.h */,
-				BD828A0897DD0B1D30FD5E51D509F2D6 /* FBSnapshotTestController.m */,
-				E1FBC11116E7513F8351BAAFD4097B8C /* UIApplication+StrictKeyWindow.h */,
-				4EB5A4C871E781D48AC781D991684D95 /* UIApplication+StrictKeyWindow.m */,
-				94FD270F76A59F393CF60DCDA87C093B /* UIImage+Compare.h */,
-				D39E83690D4927F46D0706F36B37C707 /* UIImage+Compare.m */,
-				4B115380E89BD5DC0F468B11CB72AE73 /* UIImage+Diff.h */,
-				979E4BC254EC7F871D05CD70B33A6EDC /* UIImage+Diff.m */,
-				2A7590B0A503289C53CF581078F8771E /* UIImage+Snapshot.h */,
-				51225868B34AF8B9E67BE4097B62E2A2 /* UIImage+Snapshot.m */,
+				086CBC4DEFB1741F95B50FD9A8FD36F0 /* standard */,
+				6C2CBD5CE09395892571A917ECEC7068 /* Support Files */,
 			);
-			name = Core;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		2776BCB2D363017DBB271D786D0EB261 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D112168DDA9D77EA2653CE454A6B96C6 /* FNVoiceManagerPod.modulemap */,
+				52F20F79CC8271E474B73F3AC555BF24 /* FNVoiceManagerPod.xcconfig */,
+				5E9D3361DF39CD26711912909D1B1DD1 /* FNVoiceManagerPod-dummy.m */,
+				177E504EA84D7726776586382D78BA53 /* FNVoiceManagerPod-prefix.pch */,
+				E749E3B63BB796DD87501A75DC32D2B3 /* FNVoiceManagerPod-umbrella.h */,
+				CF171C9230302E4EAA5C48646385DA32 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FNVoiceManagerPod";
+			sourceTree = "<group>";
+		};
+		6C2CBD5CE09395892571A917ECEC7068 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7500757395250CFED7165C029CBC497F /* FMDB.modulemap */,
+				1913D54200359015211E7246957DE4F1 /* FMDB.xcconfig */,
+				6A658B3346DBD5486D8B4CB17354BE01 /* FMDB-dummy.m */,
+				8910A83F2A0E3F40EB57380E6C56D91B /* FMDB-prefix.pch */,
+				8802D030E92B4791A24033E8DC35B9E0 /* FMDB-umbrella.h */,
+				51550D4EDF46B388A2F69D099447F4F3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
 		6DF37EE117F8676ACA07FC9138C2602F /* Pods-FNVoiceManagerPod_Example */ = {
@@ -332,26 +335,28 @@
 			path = "Target Support Files/Pods-FNVoiceManagerPod_Example";
 			sourceTree = "<group>";
 		};
-		6FD112B5BAD92340C0BE7A29EB7530F7 /* SwiftSupport */ = {
+		7437794C2F334813C30D5AFD3A265E63 /* FNVoiceManagerPod */ = {
 			isa = PBXGroup;
 			children = (
-				3B3C2D94D5350EC31D1ACC9F8912E1C6 /* SwiftSupport.swift */,
+				7063D58ACBA964EC6D082075B663B4C9 /* amrFileCodec.h */,
+				C147F55C2D66C836CB000FC3769116C2 /* amrFileCodec.mm */,
+				4C292C7811CBC6290BB5C453B618B07A /* dec_if.h */,
+				EF445F480D669227D7B29260198D5FA9 /* FNSqlHelper.h */,
+				BD7C692D4773C4E9DFF50758C475D6EA /* FNSqlHelper.m */,
+				1E66F1CDD47214D43B95D19E678D80D3 /* FNUser.h */,
+				C3293E87BFF3A8FD7E2735733DA94FCC /* FNUser.m */,
+				381BE89A52575B9C7C53B713449380E7 /* FNVoiceManager.h */,
+				A189ABADC34226E56BFABD9EBA95D541 /* FNVoiceManager.m */,
+				6108446681F0668C452413EAAA99A9D2 /* if_rom.h */,
+				B0038A2A34A26CDF3A0A78540B6A6524 /* interf_dec.h */,
+				ECAE4E71F811183B02A66727757018A0 /* interf_enc.h */,
+				AC0BE5BBF0A6F6853C5781DF8075A274 /* UILabel+Delay.h */,
+				6F35E0A8D2E07D992BD2299F1C74EDCC /* UILabel+Delay.m */,
+				5FA7DB18225E08D342564E6CBAD653B8 /* VoiceConverter.h */,
+				BD22B550F79A78BC91F33EDA89A212CE /* VoiceConverter.mm */,
+				2776BCB2D363017DBB271D786D0EB261 /* Support Files */,
 			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		74487A38BFECF46364D17B84953772CE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B88D33314FF5F6E5D5A0C44C114DB313 /* FNVoiceManagerPod.modulemap */,
-				6B9A75B433110344E3B97E43A733396D /* FNVoiceManagerPod.xcconfig */,
-				41E80AB8E7884A214A39E8552220D6F7 /* FNVoiceManagerPod-dummy.m */,
-				CBAECA14BEBA1D54060134EB436CF13F /* FNVoiceManagerPod-prefix.pch */,
-				A3892A4E5D3849D353BA0DF38567158F /* FNVoiceManagerPod-umbrella.h */,
-				C8B60456F1CBC4D583D17D8FA8EA75C0 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FNVoiceManagerPod";
+			path = FNVoiceManagerPod;
 			sourceTree = "<group>";
 		};
 		7BBBD88D23B142E5507916D9EE88F6AD /* Products */ = {
@@ -371,66 +376,44 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F55A2905C8C8C6335062DB6335E3E48D /* Frameworks */,
-				181287B5EEE3C58F1D9AE2C63BA87B73 /* Pods */,
+				9F953FCAFC30750E35FB0B0DBEF1E170 /* Pods */,
 				7BBBD88D23B142E5507916D9EE88F6AD /* Products */,
 				EEC0FF1EDAAB4860F64FE4667527B3E5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8A9DEE2EBE770A2CD3714212AED5D3B6 /* FBSnapshotTestCase */ = {
+		8B3872FDA1534850A268D223A3861192 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				542E56E03035FE8CB078179368B35C29 /* Core */,
-				AFFE5D492515075DB06653FAEA120254 /* Support Files */,
-				6FD112B5BAD92340C0BE7A29EB7530F7 /* SwiftSupport */,
+				EF6EEE010BF63128E1FF18EFFA4165BB /* Core */,
+				A8CC9A6CDD40BBACE92759B03AD79C3F /* Support Files */,
+				100E6FD275314AF3BB8099C6A874B9DB /* SwiftSupport */,
 			);
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		8F77AE287C3AF920301D270A003B0497 /* FMDB */ = {
+		9F953FCAFC30750E35FB0B0DBEF1E170 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F4C12536ECB3EC79ABE40DCF46CFD955 /* standard */,
-				BA90FACAB20452F71A4FB4DD3563C082 /* Support Files */,
+				8B3872FDA1534850A268D223A3861192 /* FBSnapshotTestCase */,
+				2073719CD60B316E7698AB1D00067B82 /* FMDB */,
+				7437794C2F334813C30D5AFD3A265E63 /* FNVoiceManagerPod */,
 			);
-			path = FMDB;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		AFFE5D492515075DB06653FAEA120254 /* Support Files */ = {
+		A8CC9A6CDD40BBACE92759B03AD79C3F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CAFEF991EF24976A12FE619C94876776 /* FBSnapshotTestCase.modulemap */,
-				45282F28970C0EF029C47FD190AADA0C /* FBSnapshotTestCase.xcconfig */,
-				E61C803F582EAF9B049DB3BB032B6C40 /* FBSnapshotTestCase-dummy.m */,
-				A3666395585278AEAF9512335F214A1F /* FBSnapshotTestCase-prefix.pch */,
-				56A02257B5C27677FA2D0B220A76054A /* FBSnapshotTestCase-umbrella.h */,
-				B75465EA9538661943335F9B08EE3801 /* Info.plist */,
+				13EA358A6E71F15B6ED68CA19987A84B /* FBSnapshotTestCase.modulemap */,
+				1CE2839F0847654E8CBFB360A90B8885 /* FBSnapshotTestCase.xcconfig */,
+				AD12C93C76D127C1A7F48E1D25A102ED /* FBSnapshotTestCase-dummy.m */,
+				C50EDD630DAB97C7DEFB6B2615D9CB41 /* FBSnapshotTestCase-prefix.pch */,
+				86D5CB60037F31E7189D335A7BDDD0B6 /* FBSnapshotTestCase-umbrella.h */,
+				C6AA32989C79AF2DD541B08BAD36B165 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		B2721E12AA8BC5EE090BF2C3C0B90F2E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4B9DFEB94BE9CCBD62BD09B41BD9D543 /* libopencore-amrnb.a */,
-				DDFDF03F33C9016C25E437A3DF6B95D5 /* libopencore-amrwb.a */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		BA90FACAB20452F71A4FB4DD3563C082 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D3DB6398E2C70B32AEEEA19089154680 /* FMDB.modulemap */,
-				3AF31C44388A1F2512C3EB96126C5AB5 /* FMDB.xcconfig */,
-				8255E35FBCCBEF5EEDA46B6585EF0C87 /* FMDB-dummy.m */,
-				02FCD7E7D8246487941BF66F05420B5E /* FMDB-prefix.pch */,
-				A430123191CCE7C1F4B72FC0A7CDDD4B /* FMDB-umbrella.h */,
-				E538FD8FC679B0AD2D8822B322E985D8 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
 		BD7531BFD7E9467F857285F37DBF6DC6 /* Pods-FNVoiceManagerPod_Tests */ = {
@@ -460,22 +443,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F4C12536ECB3EC79ABE40DCF46CFD955 /* standard */ = {
+		EF6EEE010BF63128E1FF18EFFA4165BB /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				7E84072137FD1A767C8BA619A4CCCFB9 /* FMDatabase.h */,
-				288574DF91691F113B9E7076E2E0F739 /* FMDatabase.m */,
-				64CE47FF1E961E20D08EDF511CD25AEB /* FMDatabaseAdditions.h */,
-				407731A407A35F431AD2EBE62A834F9B /* FMDatabaseAdditions.m */,
-				2F6953F1D155D684A68E2B5F54EF28AB /* FMDatabasePool.h */,
-				AE3A066F412C43A91B470653D0F5BFA1 /* FMDatabasePool.m */,
-				1F5EFA767528E55B36008BBAC99B9BB6 /* FMDatabaseQueue.h */,
-				105CDA1D122E532FCCA76E5632608062 /* FMDatabaseQueue.m */,
-				51EFBA6180946A72C7FAB8DEFC642840 /* FMDB.h */,
-				C8097AD91CD62ACB8B593365F9B8A65E /* FMResultSet.h */,
-				DB6CD0F003973F63CDCA05B3D144C41B /* FMResultSet.m */,
+				CE2F7EEFD36A51C5DB4911FB8B768D86 /* FBSnapshotTestCase.h */,
+				2C1515814505731A51703FF13674255F /* FBSnapshotTestCase.m */,
+				DFE53CC1A82C88CA231501721E103DE1 /* FBSnapshotTestCasePlatform.h */,
+				F30C4A2BA2907B996D1BFFC1BF1B6D63 /* FBSnapshotTestCasePlatform.m */,
+				69110EE90FF85D8971924FD9BF398577 /* FBSnapshotTestController.h */,
+				A39687CCFBCBE9205D96801E5386530E /* FBSnapshotTestController.m */,
+				FDB399C48C0546927EBC96D79383B238 /* UIApplication+StrictKeyWindow.h */,
+				4225B513ECDE143DCDD68B1EE496F658 /* UIApplication+StrictKeyWindow.m */,
+				6EA9F268CF857491897635F1E9D6F5EE /* UIImage+Compare.h */,
+				61786E665C70BE30B44E88599C198DD0 /* UIImage+Compare.m */,
+				0693FC35DAFD28895C69BD112CDE4580 /* UIImage+Diff.h */,
+				86F0EBE4785D10B40856594871B39F63 /* UIImage+Diff.m */,
+				E5B62872594691BB531FBDE398FCDD74 /* UIImage+Snapshot.h */,
+				1B5BB2A106FBDAD2BA9834378FF47C87 /* UIImage+Snapshot.m */,
 			);
-			name = standard;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		F55A2905C8C8C6335062DB6335E3E48D /* Frameworks */ = {
@@ -527,21 +513,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE439BCF9EA6BB09908876BB2509E45B /* Headers */ = {
+		AD0E4537EB6481F80BF625AF91C74CB8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B20FA626114940020CC460C565A6A011 /* amrFileCodec.h in Headers */,
-				BB19082D4A47EC31ADD0F131AFEA0530 /* dec_if.h in Headers */,
-				9F294ABBDA801C2346B085AD1F14B8CC /* FNSqlHelper.h in Headers */,
-				6F504CF11D6435A6F29614F726F8CE5A /* FNUser.h in Headers */,
-				22673B5BAC865FAE48EFEAD264BC027F /* FNVoiceManager.h in Headers */,
-				713D7BF2B443BC3F492BC94907AAAFA9 /* FNVoiceManagerPod-umbrella.h in Headers */,
-				8153428C1532757F84042247268D254E /* if_rom.h in Headers */,
-				FA5F9F44AE683303ACB1244FD3E64CAC /* interf_dec.h in Headers */,
-				B7B02CEB440370B2AFB4205BA83DF890 /* interf_enc.h in Headers */,
-				8268EDDB23DA16067CD8420E96D424FF /* UILabel+Delay.h in Headers */,
-				CD2148808BEEFF41AE631E22EF939C8E /* VoiceConverter.h in Headers */,
+				89A5AD7EA712D4D63DAFB220A57F7B44 /* amrFileCodec.h in Headers */,
+				8C20E9B8E2ED1F77D315916E385E8E43 /* dec_if.h in Headers */,
+				89B66E9AD81EFA5D6EAD0331550CD327 /* FNSqlHelper.h in Headers */,
+				10922AFDD1801B580566BAD768970EC6 /* FNUser.h in Headers */,
+				C08DDD74898D595076C0725671AD83B9 /* FNVoiceManager.h in Headers */,
+				3732434A9A6A34FB25F4ABD5E713043C /* FNVoiceManagerPod-umbrella.h in Headers */,
+				88F90CA6400709C256DC05C7D293A2BF /* if_rom.h in Headers */,
+				7FEF9BB5E2D0736EEBD409EED8DE1823 /* interf_dec.h in Headers */,
+				20B14867D27186624050FF714CCFBFBE /* interf_enc.h in Headers */,
+				8F8F253013227F42C847CA1B4777DA2F /* UILabel+Delay.h in Headers */,
+				9626E8C8A1D44CA8294B6A6D35697429 /* VoiceConverter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,25 +596,6 @@
 			productReference = F05AF2C0D68324EBF4606A575341331A /* Pods_FNVoiceManagerPod_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		43C99645D707A3C810733706C49CEAC3 /* FNVoiceManagerPod */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6A4ED2280BE9F52240FF2227483C1F1A /* Build configuration list for PBXNativeTarget "FNVoiceManagerPod" */;
-			buildPhases = (
-				BF9E14589B7233EB37CA52080CA0264B /* Sources */,
-				4E4D516596C1291117A1F1EB93E4D09D /* Frameworks */,
-				BE439BCF9EA6BB09908876BB2509E45B /* Headers */,
-				8429DED64FE9BD451BA8958E4C815C4F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				122E546D6ED83912943A95764A744F63 /* PBXTargetDependency */,
-			);
-			name = FNVoiceManagerPod;
-			productName = FNVoiceManagerPod;
-			productReference = 9977BCC37766905705F50C9796B4F96D /* FNVoiceManagerPod.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D492E06A9E9F494492A2A3B4D19493E /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
@@ -644,6 +611,24 @@
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
 			productReference = D148856D6CB9AD4E0DEC054F9732ABF7 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68854EB0BD86A782E0D0C87B14402B91 /* FNVoiceManagerPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDDD31EF974E2F6F5413333B4E3E067 /* Build configuration list for PBXNativeTarget "FNVoiceManagerPod" */;
+			buildPhases = (
+				17601113A22C0E07A15E9FCEF50EC4FB /* Sources */,
+				4CF471E4CEE33F0F35333F5DCC22AE74 /* Frameworks */,
+				AD0E4537EB6481F80BF625AF91C74CB8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AC52A5EE42A04A891E8EA665FB12185 /* PBXTargetDependency */,
+			);
+			name = FNVoiceManagerPod;
+			productName = FNVoiceManagerPod;
+			productReference = 9977BCC37766905705F50C9796B4F96D /* FNVoiceManagerPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -669,26 +654,28 @@
 			targets = (
 				5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */,
 				23CF27B2BA6AC7125EFFEDA8C5AA819F /* FMDB */,
-				43C99645D707A3C810733706C49CEAC3 /* FNVoiceManagerPod */,
+				68854EB0BD86A782E0D0C87B14402B91 /* FNVoiceManagerPod */,
 				350BB3774D529FDEDEEA1732ED621FF3 /* Pods-FNVoiceManagerPod_Example */,
 				236C93CFBAD47DE61DBA5F264C64E124 /* Pods-FNVoiceManagerPod_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		8429DED64FE9BD451BA8958E4C815C4F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXSourcesBuildPhase section */
+		17601113A22C0E07A15E9FCEF50EC4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C508A55A9F6BA4B590BDF6218A642B55 /* libopencore-amrnb.a in Resources */,
-				DD2B82A8556870287DC0E2118A81F18A /* libopencore-amrwb.a in Resources */,
+				0682202AEE5CC8F12D915BC8C636144F /* amrFileCodec.mm in Sources */,
+				840E6F5D2868FBCB9D87F7F543EC8C59 /* FNSqlHelper.m in Sources */,
+				D98DF1EC64A349513509278403361836 /* FNUser.m in Sources */,
+				DC4C102A0470B47124DAEF6D7C6A7D83 /* FNVoiceManager.m in Sources */,
+				D2EFFF205E60DF08EBAF20AEAE35EBE8 /* FNVoiceManagerPod-dummy.m in Sources */,
+				28EC6790D2BC744ECE3118DC9D7BA5C4 /* UILabel+Delay.m in Sources */,
+				3892D8B6C427A45C8C4F6055775055C9 /* VoiceConverter.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		2259B26691C206688796124E5639E9AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -734,29 +721,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF9E14589B7233EB37CA52080CA0264B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67698214BD474C095CFDCA4B287297D9 /* amrFileCodec.mm in Sources */,
-				57AD99C06C99B90AF06F492BB415B1E2 /* FNSqlHelper.m in Sources */,
-				A46B0D9C329B974A44B751D1082CB200 /* FNUser.m in Sources */,
-				8385ACAB5FC6900E781CBE4B7AE790F0 /* FNVoiceManager.m in Sources */,
-				5ADA086DC23F8902B014F36EE81315A4 /* FNVoiceManagerPod-dummy.m in Sources */,
-				C4A92565F3902E3CD06731896033DC95 /* UILabel+Delay.m in Sources */,
-				853BECBB903C41ECF92798E843450492 /* VoiceConverter.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		122E546D6ED83912943A95764A744F63 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 23CF27B2BA6AC7125EFFEDA8C5AA819F /* FMDB */;
-			targetProxy = 0F79122D0345116D6022F377FB24388D /* PBXContainerItemProxy */;
-		};
 		292EEC26BE12085B48E8ED452AF9F4DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
@@ -766,8 +733,14 @@
 		351E01AC5CEC4CBAD576CA372225FD56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FNVoiceManagerPod;
-			target = 43C99645D707A3C810733706C49CEAC3 /* FNVoiceManagerPod */;
+			target = 68854EB0BD86A782E0D0C87B14402B91 /* FNVoiceManagerPod */;
 			targetProxy = 0E7DA56C48CF9500A7415F6CE9B58492 /* PBXContainerItemProxy */;
+		};
+		5AC52A5EE42A04A891E8EA665FB12185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 23CF27B2BA6AC7125EFFEDA8C5AA819F /* FMDB */;
+			targetProxy = CB3544A7E80D637F02291F8B32C08DF2 /* PBXContainerItemProxy */;
 		};
 		6B5EE0799F28DCD7B7A2CD6F69550A37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -850,38 +823,9 @@
 			};
 			name = Release;
 		};
-		0C69EEB4FEF18F502B06D72C68716D73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B9A75B433110344E3B97E43A733396D /* FNVoiceManagerPod.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FNVoiceManagerPod/FNVoiceManagerPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FNVoiceManagerPod/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FNVoiceManagerPod/FNVoiceManagerPod.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FNVoiceManagerPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1EAB35ACB452D210D5CF60F7847CD85B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45282F28970C0EF029C47FD190AADA0C /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 1CE2839F0847654E8CBFB360A90B8885 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -909,38 +853,9 @@
 			};
 			name = Debug;
 		};
-		2936435CF44FEFAD2D983F0C151D52C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B9A75B433110344E3B97E43A733396D /* FNVoiceManagerPod.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FNVoiceManagerPod/FNVoiceManagerPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FNVoiceManagerPod/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FNVoiceManagerPod/FNVoiceManagerPod.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FNVoiceManagerPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3606871B814C53A835D7AEF48F29747B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AF31C44388A1F2512C3EB96126C5AB5 /* FMDB.xcconfig */;
+			baseConfigurationReference = 1913D54200359015211E7246957DE4F1 /* FMDB.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -969,7 +884,7 @@
 		};
 		5619B880BCDC5D5E39F35255934A1F9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AF31C44388A1F2512C3EB96126C5AB5 /* FMDB.xcconfig */;
+			baseConfigurationReference = 1913D54200359015211E7246957DE4F1 /* FMDB.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1062,6 +977,64 @@
 			};
 			name = Release;
 		};
+		80C36095A094A66D659A2CEC7CBC12E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F20F79CC8271E474B73F3AC555BF24 /* FNVoiceManagerPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FNVoiceManagerPod/FNVoiceManagerPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FNVoiceManagerPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FNVoiceManagerPod/FNVoiceManagerPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FNVoiceManagerPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8456D7031253BE8BE44970BB806134C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F20F79CC8271E474B73F3AC555BF24 /* FNVoiceManagerPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FNVoiceManagerPod/FNVoiceManagerPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FNVoiceManagerPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FNVoiceManagerPod/FNVoiceManagerPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FNVoiceManagerPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D12BDA4DAA8F1DE8B85882CA6C3A92F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B86498CC5A91181D57B416574845411 /* Pods-FNVoiceManagerPod_Example.debug.xcconfig */;
@@ -1139,7 +1112,7 @@
 		};
 		F1966C59AF0C3A63F4C5A9E7987B3CB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45282F28970C0EF029C47FD190AADA0C /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 1CE2839F0847654E8CBFB360A90B8885 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1178,15 +1151,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A4ED2280BE9F52240FF2227483C1F1A /* Build configuration list for PBXNativeTarget "FNVoiceManagerPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2936435CF44FEFAD2D983F0C151D52C1 /* Debug */,
-				0C69EEB4FEF18F502B06D72C68716D73 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7FC0F2F78529C3EF67476D8B268B8BFF /* Build configuration list for PBXNativeTarget "Pods-FNVoiceManagerPod_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1210,6 +1174,15 @@
 			buildConfigurations = (
 				1EAB35ACB452D210D5CF60F7847CD85B /* Debug */,
 				F1966C59AF0C3A63F4C5A9E7987B3CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BDDD31EF974E2F6F5413333B4E3E067 /* Build configuration list for PBXNativeTarget "FNVoiceManagerPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C36095A094A66D659A2CEC7CBC12E6 /* Debug */,
+				8456D7031253BE8BE44970BB806134C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

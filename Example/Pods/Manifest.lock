@@ -20,13 +20,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   FNVoiceManagerPod:
-    :commit: 58a7987b1cd56768094e21b2bd7cda815993fee0
+    :commit: b5af876b851070bdfff925dc5e50d2183ca361aa
     :git: https://github.com/jiaruijj/VoiceManager.git
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
-  FNVoiceManagerPod: d33c74b95612b00f92a05449fb997b24ce2ededb
+  FNVoiceManagerPod: 11639304f3a5441203e3261debf34ed196735103
 
 PODFILE CHECKSUM: 8ee4aab9d05b7aa3d19d37ec45b277c651acc862
 
