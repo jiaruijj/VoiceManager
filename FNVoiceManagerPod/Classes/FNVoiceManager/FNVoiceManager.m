@@ -142,6 +142,43 @@ static NSString *kFileFolrderName =@"Voice";
     }
 }
 
+#pragma mark - wav转amr并存入数据库
+- (void)wavToAmrWithModel :(FNUser *)model  success:(ConvertSuccess)success failure:(ConvertFailure)failure{
+    //转换格式
+    dispatch_async(kWavToAmrQueue, ^{
+        NSDate *date = [NSDate date];
+        self.amrPath = [self getPathByFileName:self.recordFileName fileType:@"amr"];
+        // wav转amr
+        if ([VoiceConverter ConvertWavToAmr:self.recordFilePath amrSavePath:self.amrPath]) {
+            DLog(@"wav转amr成功");
+            
+            self.recordToAmrTime = [[NSDate date] timeIntervalSinceDate:date];
+            self.amrFileSize = [self getFileSize:self.amrPath];
+            self.amrDuration = [self getVoiceDuration:self.amrPath];
+            
+            [self saveToDBWithModel:model];
+            
+            
+            if (success) {
+                dispatch_sync(dispatch_get_main_queue(), ^{
+                    [self clearDocumentFile:self.recordFilePath];
+                    success();
+                });
+            }
+            
+        } else {
+            DLog(@"wav转amr失败");
+            
+            if (failure) {
+                dispatch_sync(dispatch_get_main_queue(), ^{
+                    failure();
+                });
+            }
+        }
+    });
+}
+
+
 #pragma mark - wav转amr
 - (void)wavToAmr :(ConvertSuccess)success failure:(ConvertFailure)failure{
     //转换格式

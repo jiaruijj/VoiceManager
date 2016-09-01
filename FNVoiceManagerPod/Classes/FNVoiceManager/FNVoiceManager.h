@@ -98,6 +98,13 @@ typedef NS_ENUM (NSInteger,FNVoiceMode) {
 - (void)wavToAmr :(ConvertSuccess)success failure:(ConvertFailure)failure;
 
 /**
+ *  当前wav转amr 异步转换并存入数据库  转换后删除原有amr文件
+ *
+ *  @param success 回到主线程block
+ *  @param failure 回到主线程block
+ */
+- (void)wavToAmrWithModel :(FNUser *)model  success:(ConvertSuccess)success failure:(ConvertFailure)failure;
+/**
  *  amr转wav
  *
  *  @param fileName 指定文件名
