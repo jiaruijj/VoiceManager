@@ -14,10 +14,20 @@
 
 /*最小说话时间*/
 static NSInteger kMinVoiceDuration = 3;
+/*最大cache语音数量*/
+static NSInteger kMaxCachePoolCount = 20;
 /*转换的语音类型*/
 static NSString *kFileType = @"wav";
 /*真缓存二级目录*/
-static NSString *kFileFolrderName =@"Amr";
+static NSString *kFileFolrderName =@"Voice";
+/*临时缓存目录*/
+
+/*cache/Voice文件路径*/
+#define kTempPath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory,NSUserDomainMask,YES)[0] stringByAppendingPathComponent:kFileFolrderName]
+
+/*Temp/Voice文件路径*/
+//#define kTempPath [NSTemporaryDirectory() stringByAppendingPathComponent:kFileFolrderName]
+
 
 #define kAmrToWavQueue  dispatch_queue_create("kAmrToWavQueueName", NULL)
 #define kWavToAmrQueue  dispatch_queue_create("kWavToAmrQueueName", NULL)
@@ -51,7 +61,8 @@ static NSString *kFileFolrderName =@"Amr";
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         manager = [[FNVoiceManager alloc] init];
-        [self createFolder];
+        [self createDocumentFolder];
+        [self createTempFolder];
     });
     return manager;
 }
@@ -98,7 +109,7 @@ static NSString *kFileFolrderName =@"Amr";
 /*开始计算录音时长*/
 - (void)startSecondCount {
     self.secondCount ++;
-    DLog(@"%ld",(long)_secondCount);
+    DLog(@"%ld",_secondCount);
 }
 
 /*暂停定时器并清除录音时长*/
@@ -217,7 +228,7 @@ static NSString *kFileFolrderName =@"Amr";
     
         NSString *wavPath = [self searchTempFileName:fileName];
     if (wavPath) {
-        DLog(@"播放temp缓存文件,无需转换");
+        DLog(@"播放临时缓存文件,无需转换");
         [self openMonitoring];
         self.player = [weakSelf.player initWithContentsOfURL:[NSURL URLWithString:wavPath] error:nil];
         self.player.delegate = weakSelf;
@@ -255,22 +266,28 @@ static NSString *kFileFolrderName =@"Amr";
     return path;
 }
 
-// 播放后的文件放入沙盒temp目录
+
+// 播放后的文件放入沙盒cache目录
 - (NSString *)getTempFileName :(NSString *)fileName {
     if (!fileName) return nil;
-    NSString *directory = NSTemporaryDirectory();
+    NSString *directory = kTempPath;
     NSString *path = [[[directory stringByAppendingPathComponent:fileName]
                        stringByAppendingPathExtension:kFileType]
                       stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return path;
 }
 
-//查找temp文件下下面是否有已经转换的临时缓存文件
+//查找cache文件下下面是否有已经转换的临时缓存文件
+
 - (NSString *)searchTempFileName :(NSString *)fileName {
     if (!fileName) return nil;
     NSFileManager *manager = [[NSFileManager alloc]init];
-    NSString *path =  NSTemporaryDirectory();
-    NSMutableArray *nameArray = [NSMutableArray arrayWithArray:[manager contentsOfDirectoryAtPath:path error:nil]];
+    NSMutableArray *nameArray = [NSMutableArray arrayWithArray:[manager contentsOfDirectoryAtPath:kTempPath error:nil]];
+    
+    if (nameArray.count > kMaxCachePoolCount) {
+        //删除文件修改时间最早的文件
+        [self clearDocumentFile:[self earliestModiFileFilePath:kTempPath]];
+    }
     __block NSString *tempFileName;
     [nameArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSString *fileNames = obj;
@@ -281,23 +298,63 @@ static NSString *kFileFolrderName =@"Amr";
     }];
     if (!tempFileName) return nil;
 
-    return [[[path stringByAppendingPathComponent:fileName]
+    return [[[kTempPath stringByAppendingPathComponent:fileName]
              stringByAppendingPathExtension:kFileType]
             stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];;
 
 }
 
-// 判断文件夹是否存在，如果不存在，则创建
-+ (void)createFolder {
-    NSFileManager *fileManager = [[NSFileManager alloc] init];
+//临时缓存堆,默认最多存放20条语音,先进先出,保留最近20条,返回应该删除的路径
+- (NSString *)earliestModiFileFilePath:(NSString *)path {
+    NSError *error;
+    NSArray *attributes = [NSArray arrayWithObjects:NSURLContentModificationDateKey,nil];
+    //预处理修改时间
+    NSFileManager *manager = [[NSFileManager alloc]init];
+    NSArray *pathArray = [manager
+                          contentsOfDirectoryAtURL:[NSURL fileURLWithPath:path]
+                          includingPropertiesForKeys:attributes
+                          options:0
+                          error:&error];
+    
+    NSMutableArray *dateAndNameArray = [NSMutableArray array];
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    [pathArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSURL *url = obj;
+        NSDictionary *attributesDictionary = [url resourceValuesForKeys:attributes error:nil];
+        //获取最近修改日期
+        NSDate *lastModifiedDate = [attributesDictionary objectForKey:NSURLContentModificationDateKey];
+        NSNumber *modifyTimeNum= [NSNumber numberWithDouble:[lastModifiedDate timeIntervalSince1970]];
+        [dateAndNameArray addObject:modifyTimeNum];
+        [dic setObject:url  forKey:modifyTimeNum];
+    }];
+    //得到修改时间最早的文件名
+    NSNumber *minmodyfyTimeNum =  [dateAndNameArray valueForKeyPath:@"@min.intValue"];
+    NSString *shouldDeletePath = [dic objectForKey:minmodyfyTimeNum];
+    return shouldDeletePath;
+}
+
+// 创建Document/Voice目录
++ (void)createDocumentFolder {
     NSString *pathDocuments = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-    NSString *createPath = [NSString stringWithFormat:@"%@/%@", pathDocuments,kFileFolrderName];
-    
-    
+    [self createFloder:pathDocuments createFilderName:kFileFolrderName];
+}
+
+
+// 创建Cache/Voice目录
++ (void)createTempFolder {
+    [self createFloder:kTempPath createFilderName:@""];
+}
+
+// 判断文件夹是否存在，如果不存在，则创建
++ (void)createFloder:(NSString *)existsPath createFilderName:(NSString *)createFilderName {
+    NSFileManager *fileManager = [[NSFileManager alloc] init];
+    NSString *pathDocuments = existsPath;
+    NSString *createPath = [NSString stringWithFormat:@"%@/%@", pathDocuments,createFilderName];
     if (![[NSFileManager defaultManager] fileExistsAtPath:createPath]) {
         [fileManager createDirectoryAtPath:createPath withIntermediateDirectories:YES attributes:nil error:nil];
+        DLog(@"%@创建文件夹成功",createFilderName);
     } else {
-        DLog(@"FileDir is exists.");
+        DLog(@"%@文件夹已存在",createFilderName);
     }
 }
 
@@ -311,7 +368,7 @@ static NSString *kFileFolrderName =@"Amr";
 // 获取音频文件信息
 - (NSString *)getVoicefileInfoByPath:(NSString *)filePath convertTime:(NSTimeInterval)convertTime {
     NSInteger size = [self getFileSize:filePath];
-    NSString *info = [NSString stringWithFormat:@"文件名:%@\n文件大小:%ldkb\n",filePath.lastPathComponent,(long)size];
+    NSString *info = [NSString stringWithFormat:@"文件名:%@\n文件大小:%ldkb\n",filePath.lastPathComponent,size];
     
     NSTimeInterval duration = [self getVoiceDuration:filePath];
     info = [info stringByAppendingFormat:@"文件时长:%f\n",duration];

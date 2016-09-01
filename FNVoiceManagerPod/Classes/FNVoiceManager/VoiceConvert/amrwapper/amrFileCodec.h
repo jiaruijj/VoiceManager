@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "interf_dec.h"
+#include <interf_dec.h>
 #include "interf_enc.h"
 
 #define AMR_MAGIC_NUMBER "#!AMR\n"

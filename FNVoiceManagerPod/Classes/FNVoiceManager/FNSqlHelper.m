@@ -8,7 +8,6 @@
 
 #import "FNSqlHelper.h"
 #import "FMDB.h"
-
 #define FNSQLITE_NAME @"modals.sqlite"
 
 @implementation FNSqlHelper
