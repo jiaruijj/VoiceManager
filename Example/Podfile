@@ -1,8 +1,9 @@
 use_frameworks!
 
 target 'FNVoiceManagerPod_Example' do
-# pod 'FNVoiceManagerPod', :path => '../'
-  pod 'FNVoiceManagerPod',  :git => 'https://github.com/jiaruijj/VoiceManager.git'
+pod 'FNVoiceManagerPod', :path => '../'
+#  pod 'FNVoiceManagerPod',  :git => 'https://github.com/jiaruijj/VoiceManager.git'
+#   pod 'libBPush',  :git => "https://github.com/dorentus/libBPush.git"
   target 'FNVoiceManagerPod_Tests' do
     inherit! :search_paths
 

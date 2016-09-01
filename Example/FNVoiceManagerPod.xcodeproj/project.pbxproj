@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BACF5A51D76C1080010FF8F /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BACF5A31D76C1080010FF8F /* libopencore-amrnb.a */; };
-		2BACF5A61D76C1080010FF8F /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BACF5A41D76C1080010FF8F /* libopencore-amrwb.a */; };
 		4C8CA8E0922FDB5737316C3F /* Pods_FNVoiceManagerPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846A6210C28016CABE31E9A5 /* Pods_FNVoiceManagerPod_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -41,8 +39,6 @@
 		027FDFC92C3BAC365B682A64 /* Pods-FNVoiceManagerPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FNVoiceManagerPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FNVoiceManagerPod_Tests/Pods-FNVoiceManagerPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19E65FCF0CEF26004F7994F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1F7C20419944C7A53792EAAD /* Pods-FNVoiceManagerPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FNVoiceManagerPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FNVoiceManagerPod_Tests/Pods-FNVoiceManagerPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2BACF5A31D76C1080010FF8F /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "../FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
-		2BACF5A41D76C1080010FF8F /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "../FNVoiceManagerPod/Classes/FNVoiceManager/VoiceConvert/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
 		327EEDFA8C404A7C60577B59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5FBD5986BF703AFB7F977DB9 /* FNVoiceManagerPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FNVoiceManagerPod.podspec; path = ../FNVoiceManagerPod.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FNVoiceManagerPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNVoiceManagerPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,8 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BACF5A51D76C1080010FF8F /* libopencore-amrnb.a in Frameworks */,
-				2BACF5A61D76C1080010FF8F /* libopencore-amrwb.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -123,8 +117,6 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2BACF5A31D76C1080010FF8F /* libopencore-amrnb.a */,
-				2BACF5A41D76C1080010FF8F /* libopencore-amrwb.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,

@@ -23,5 +23,5 @@
 
     ]
   },
-  "vendored_libraries": "*.a"
+  "vendored_libraries": "FNVoiceManagerPod/Classes/**/*.a"
 }
