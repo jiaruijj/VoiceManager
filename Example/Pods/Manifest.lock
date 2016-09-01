@@ -12,17 +12,22 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - FNVoiceManagerPod (from `../`)
+  - FNVoiceManagerPod (from `https://github.com/jiaruijj/VoiceManager.git`)
 
 EXTERNAL SOURCES:
   FNVoiceManagerPod:
-    :path: ../
+    :git: https://github.com/jiaruijj/VoiceManager.git
+
+CHECKOUT OPTIONS:
+  FNVoiceManagerPod:
+    :commit: 58a7987b1cd56768094e21b2bd7cda815993fee0
+    :git: https://github.com/jiaruijj/VoiceManager.git
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
-  FNVoiceManagerPod: 919dabfc368af4daba935e7bad41e38eb0b3d68e
+  FNVoiceManagerPod: d33c74b95612b00f92a05449fb997b24ce2ededb
 
-PODFILE CHECKSUM: 4251516fe3891c176f7c1ac349be9e198932d09f
+PODFILE CHECKSUM: 8ee4aab9d05b7aa3d19d37ec45b277c651acc862
 
 COCOAPODS: 1.0.1

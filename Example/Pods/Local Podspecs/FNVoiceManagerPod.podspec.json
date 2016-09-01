@@ -26,9 +26,8 @@
 
     ]
   },
-  "libraries": [
-    "opencore-amrnb",
-    "opencore-amrwb",
-    "stdc++"
+  "vendored_libraries": [
+    "libopencore-amrnb.a",
+    "libopencore-amrwb.a"
   ]
 }
